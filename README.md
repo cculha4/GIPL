@@ -17,6 +17,7 @@ Jafarov, E. E., Marchenko, S. S., and Romanovsky, V. E. 2012. Numerical modeling
 ###Compile: 
 **Windows**: Compile the gipl.f90 and call the executable file gipl.exe  <br />
 **Linux**: Use Makefile to create executable, just type 'make' in your command line  <br />
+**MAC**: first, you need to install XCode and accept the license. Then install gfortran by "sudo apt-get install gfortran". Once thats done, write "sudo xcode-select -s /Applications/Xcode.app/Contents/Developer". Only after these steps are complete will "make" work.
 
 ###Run: 
 Make sure to create a dump folder before running the executable file (cfg file in Setup below).  <br />
